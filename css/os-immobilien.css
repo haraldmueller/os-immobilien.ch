@@ -1,0 +1,142 @@
+body {
+    background-color: gainsboro;
+}
+#cycler{
+    position:relative;}
+#cycler img{
+    position:   absolute;
+    z-index:    1;
+    width:      100%;
+}
+#cycler img.active{z-index:3}
+
+.tansparenz {
+    z-index:    9;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 65%;
+    width: 18.5em;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.menu {
+    z-index:    10;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 65%;
+    width: 18em;
+    height: 80%;
+}
+.menu img {
+    width: 100%;
+}
+.menu ul {
+     margin-top: 20px;
+     margin-left: -2.4em;
+}
+.menu ul li {
+    margin-left: 0;
+    list-style: none;
+    line-height: 240%;
+    font-size: 1.8em;
+}
+
+a, a:VISITED, a:LINK {
+    color: white;
+    text-decoration: none;
+}
+.untererbereich {
+    z-index: 21;
+    background-color: gainsboro;
+    border-top: solid 0.5em rgb(115,165,51);
+    position: absolute;
+    top: 70%;
+    min-height: 30%;
+    width: 100%;
+}
+.submenu {
+    z-index:  22;
+   /* background-color: rgb(115,165,51); */
+    color: dimgray;
+    position: absolute;
+    top: -1px;
+    left: 10%;
+    width: 16em;
+    height: 100%;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+0,23538a+100;Blue+3d+%238 */
+    background: #73a533; /* Old browsers */
+    background: -moz-linear-gradient(top,  #73a533 0%, #e3f1d3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#73a533), color-stop(100%,#e3f1d3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #73a533 0%,#e3f1d3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #73a533 0%,#e3f1d3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #73a533 0%,#e3f1d3 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #73a533 0%,#e3f1d3 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73a533', endColorstr='#e3f1d3',GradientType=0 ); /* IE6-9 */
+
+
+}
+.submenu ul {
+    margin-top: 20px;
+    margin-left: -2.4em;
+}
+.submenu ul li {
+    margin-left: 0;
+    list-style: none;
+    line-height: 260%;
+    font-size: 1em;
+}
+
+.textbereich {
+    z-index:    23;
+    background-color: transparent;
+    color: dimgray;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 30em;
+    height: 100%;
+}
+.textbereich h1 {
+    font-weight: 300;
+
+}
+.textbereich h1 span {
+    font-weight: 700;
+    color: #73a533;
+}
+.abschlussbereich {
+    z-index: 35;
+    background-color: gainsboro;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 100%;
+}
+.abschlussbereichsubmenu {
+    z-index:  42;
+    /* background-color: rgb(115,165,51); */
+    color: dimgray;
+    position: absolute;
+    top: -1px;
+    left: 10%;
+    width: 16em;
+    height: 100%;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+0,23538a+100;Blue+3d+%238 */
+    background: #e3f1d3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e3f1d3 0%, gainsboro 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3f1d3), color-stop(100%,gainsboro)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e3f1d3 0%,gainsboro 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e3f1d3 0%,gainsboro 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e3f1d3 0%,gainsboro 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e3f1d3 0%,gainsboro 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3f1d3', endColorstr='gainsboro',GradientType=0 ); /* IE6-9 */
+}
+CH02 0900 0000 4023 1100 5
+
